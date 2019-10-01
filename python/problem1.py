@@ -1,3 +1,27 @@
+'''
+
+    This algorithm takes 2 whole numbers as input and outputs the
+    smallest number from the set of permutations of number 1 that is
+    greater than number 2.
+    The set of permutations of number 1 are found recursively.
+
+    Input:
+    ------
+    Two space separated whole numbers.
+
+    Output:
+    -------
+    As mentioned above.
+
+    eg: Input : 234 340
+        Output: 342
+
+    Explanation: Among the permutations of 234, ( 234, 243, 324, 342, 423, 432 )
+        342, 423 and 432 are greater than the second number 340. So the smallest
+        of the bunch (342) is the required output.
+
+'''
+
 given_set = []  # Set to store given digits
 permutations_set = []
 
