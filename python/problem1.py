@@ -2,7 +2,7 @@
 
     This algorithm takes 2 whole numbers as input and outputs the
     smallest number from the set of permutations of number 1 that is
-    greater than number 2.
+    greater than number 2. If no number is larger, the result is noted.
     The set of permutations of number 1 are found recursively.
 
     Input:
