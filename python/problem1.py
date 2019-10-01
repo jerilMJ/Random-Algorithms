@@ -32,5 +32,7 @@ print(permutations_set)
 filtered = filter(lambda x: x > int(n2), permutations_set)  # Filtering numbers < number 2
 filtered = sorted(filtered) # After sorting, first item will be smallest
 
-print(filtered[0])
-
+try:
+    print(filtered[0])
+except IndexError:
+    print('No larger numbers')
