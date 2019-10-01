@@ -27,7 +27,6 @@ list1 = list(n1)
 list1 = list(map(int, list1))   # Separate each digits of number 1
 
 permutations(list1, 0, len(list1))  # Find permutation of digits of number 1
-print(permutations_set)
 
 filtered = filter(lambda x: x > int(n2), permutations_set)  # Filtering numbers < number 2
 filtered = sorted(filtered) # After sorting, first item will be smallest
